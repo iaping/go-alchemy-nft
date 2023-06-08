@@ -1,4 +1,4 @@
-module go-alchemy-nft
+module github.com/iaping/go-alchemy-nft/v2
 
 go 1.19
 
