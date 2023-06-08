@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	nft "go-alchemy-nft/v2"
+	nft "go-alchemy-nft"
 )
 
 var client = nft.New("https://eth-mainnet.g.alchemy.com", "xxxxxx", nil)
