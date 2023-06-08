@@ -8,10 +8,10 @@ go get：
 go get github.com/iaping/go-alchemy-nft/v2
 ```
 
-## Example
-All examples are in examples
+## Examples
+[examples](examples/main.go)
 
-## Rest api example code
+## Simple
 ```go
 package main
 
@@ -23,7 +23,7 @@ import (
 
 func main() {
 	client := nft.New("https://eth-mainnet.g.alchemy.com", "xxxxxxxxxxx", nil)
-    resp, err := client.NewGetNFTs().Do(&nft.GetNFTsParam{
+	resp, err := client.NewGetNFTs().Do(&nft.GetNFTsParam{
 		Owner:        "0xe525FAE3fC6fBB23Af05E54Ff413613A6573CFf2",
 		WithMetadata: true,
 	})
