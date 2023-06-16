@@ -45,7 +45,7 @@ type Media struct {
 }
 
 type Metadata struct {
-	Id               int64                    `json:"id,omitempty"`
+	Id               interface{}              `json:"id,omitempty"`
 	Used             bool                     `json:"used,omitempty"`
 	Phase            string                   `json:"phase,omitempty"`
 	TokenId          interface{}              `json:"tokenId,omitempty"`
